@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class) 
 
 @CucumberOptions(features="Features111", glue={"stepDefinitions"},plugin = {"json:target/cucumber.json"},
-tags={"@Successful_login"})
+tags={"@Add_to_cart__"})
 public class TestRunners extends AbstractTestNGCucumberTests{
 
 

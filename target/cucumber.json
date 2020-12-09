@@ -4,7 +4,7 @@
     "elements": [
       {
         "line": 2,
-        "name": "User navigates to Demo Web Shop home page and click on Login link",
+        "name": "User has already logged in with valid credentials and is navigated to Demo workshop home page.",
         "description": "",
         "type": "background",
         "keyword": "Background",
@@ -12,73 +12,85 @@
       },
       {
         "line": 5,
-        "name": "− Successful login with valid login credentials",
-        "description": "Description: This feature will test successful login functionality",
-        "id": "login-action;−-successful-login-with-valid-login-credentials",
+        "name": "− Successful adding an item to the cart",
+        "description": "Description: This feature will test successful Add to cart functionality",
+        "id": "add-to-cart--action;−-successful-adding-an-item-to-the-cart",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 38729825000,
+              "duration": 20037255600,
               "status": "passed"
             },
             "line": 7,
-            "name": "User is on login page",
+            "name": "User is on home page",
             "match": {
-              "location": "LoginSteps.user_is_on_login_page()"
+              "location": "AddtocartSteps.user_is_on_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2512324800,
+              "duration": 1535362800,
               "status": "passed"
             },
             "line": 8,
-            "name": "User enters all valid data",
+            "name": "User clicks on books link",
             "match": {
-              "location": "LoginSteps.user_enters_all_valid_data()"
+              "location": "AddtocartSteps.user_clicks_on_books_link()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3540427100,
+              "duration": 6927822300,
               "status": "passed"
             },
             "line": 9,
-            "name": "click on Log in",
+            "name": "selects a book to add to cart",
             "match": {
-              "location": "LoginSteps.click_on_Log_in()"
+              "location": "AddtocartSteps.selects_a_book_to_add_to_cart()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 773981000,
+              "duration": 174012100,
               "status": "passed"
             },
             "line": 10,
-            "name": "login should be successful",
+            "name": "click on Add to cart",
             "match": {
-              "location": "LoginSteps.login_should_be_successful()"
+              "location": "AddtocartSteps.click_on_Add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782883800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "item is added to cart successfully",
+            "match": {
+              "location": "AddtocartSteps.item_is_added_to_cart_successfully()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Successful_login"
+            "name": "@Add_to_cart__"
           }
         ]
       }
     ],
-    "name": "Login Action",
+    "name": "Add to cart  Action",
     "description": "",
-    "id": "login-action",
+    "id": "add-to-cart--action",
     "keyword": "Feature",
-    "uri": "Features111/login_demowebshop.feature",
+    "uri": "Features111/addtocart_demowebshop.feature",
     "tags": []
   }
 ]
