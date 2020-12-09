@@ -7,7 +7,8 @@
         "name": "User navigates to Demo Web Shop home page and click on Login link",
         "description": "",
         "type": "background",
-        "keyword": "Background"
+        "keyword": "Background",
+        "steps": []
       },
       {
         "line": 5,
@@ -19,7 +20,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18354931800,
+              "duration": 40926795600,
               "status": "passed"
             },
             "line": 7,
@@ -31,7 +32,7 @@
           },
           {
             "result": {
-              "duration": 2430714500,
+              "duration": 2805149300,
               "status": "passed"
             },
             "line": 8,
@@ -43,7 +44,7 @@
           },
           {
             "result": {
-              "duration": 3771683800,
+              "duration": 3765710300,
               "status": "passed"
             },
             "line": 9,
@@ -55,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 894573700,
+              "duration": 4267306300,
               "status": "passed"
             },
             "line": 10,
@@ -68,7 +69,6 @@
         ],
         "tags": [
           {
-            "line": 4,
             "name": "@Successful_login"
           }
         ]
@@ -78,6 +78,7 @@
     "description": "",
     "id": "login-action",
     "keyword": "Feature",
-    "uri": "login_demowebshop.feature"
+    "uri": "Features111/login_demowebshop.feature",
+    "tags": []
   }
 ]
